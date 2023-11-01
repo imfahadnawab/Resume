@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Portfolio</title>
+    <!-- Bootstrap CSS CDN link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #f0f8ff; /* Light cyan text color */
+        }
+
+        #sidebar {
+            background-color: #121212;
+            color: aqua; /* Light cyan text color */
+            height: auto;
+        }
+
+        #sidebar a {
+            color: #f0f8ff; /* Light cyan text color */
+            transition: all 0.3s ease-in-out;
+        }
+
+        #sidebar a:hover {
+            color: aqua;
+            transform: scale(1.1);
+        }
+
+        #content {
+            background-color: #000;
+            color: #f0f8ff; /* Light cyan text color */
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        #about h2,
+        #portfolio h2,
+        #contact h2 {
+            color: aqua;
+            text-transform: uppercase;
+            border-bottom: 2px solid aqua;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div id="sidebar" class="col-md-3">
+                <h2 class="text-center py-4"><strong>Fahad Nawab</strong></h2>
+                <h4 class="text-center py-1 mb-3">Software Developer</h2>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Content -->
+            <div id="content" class="col-md-9">
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>I am a passionate and dedicated Python full stack developer with a strong interest in Django. As a recent graduate, I have acquired a solid foundation in Python and web development, with a focus on creating efficient and dynamic applications. I am enthusiastic about learning and implementing new technologies to enhance my skills and contribute to innovative projects in the field.
+Throughout my education, I have completed various projects that have allowed me to apply my knowledge in practical settings, gaining valuable experience in building responsive and user-friendly web applications. I am a quick learner, an effective problem solver, and a team player, eager to collaborate with experienced professionals to further develop my expertise and contribute to the success of impactful projects."</p>
+                </section>
+
+                <section id="portfolio">
+                    <h2>Portfolio</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                    <p class="card-text"><spam style="color:black"><strong>iPost<br></strong>Description:
+iPost is a Django-based web application that serves as a platform for users to share their thoughts and ideas, similar to a blogging platform. The application allows users to create accounts with secure user authentication, enabling them to log in and post their thoughts and views. Users can share their ideas, experiences, and opinions on various topics, engage with other users' posts through comments, and express their appreciation by liking posts.</spam></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 2</h5>
+                                    <p class="card-text"><spam style="color:black"> <strong>PyBank<br></strong>
+PyBank is a user-friendly desktop application built using the Tkinter library in Python. The application is designed to facilitate the management of customer data for a bank. It provides a seamless interface for bank employees and administrators to efficiently handle customer account operations, including opening new accounts and updating customer balances.PyBank serves as an effective tool for banks and financial institutions.</spam></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <p>Email: imfahadnawab@gmail.com</p>
+                    <p>linkedin: imfahadnawab</p>
+                    <p>Address: Batla House Okhla , New Delhi</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies CDN links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
